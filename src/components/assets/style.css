@@ -1,0 +1,232 @@
+body {
+  background-color: #fb6b6b;
+  font-family: "Recursive", sans-serif;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  width: 257px;
+  height: 350px;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo1 {
+  width: 132px;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.start {
+  background-color: #ffffff;
+  width: 245px;
+  height: 55px;
+  border: 1px solid #d70900;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.initial p {
+  color: #d70900;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo {
+  width: 100%;
+  height: 153px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topo img {
+  width: 52px;
+  height: 60px;
+}
+
+.topo h1 {
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #ffffff;
+  width: 100%;
+  display: table;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer p {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer span {
+  margin-top: 15px;
+}
+
+.congrat {
+  display: inline-flex;
+}
+
+.congrat img {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.congrat h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.icon {
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.cards {
+  width: 80%;
+  height: 80%;
+}
+
+.question {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.question-p {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333;
+}
+
+ion-icon {
+  margin-right: 15px;
+  font-size: 23px;
+}
+
+.turncard {
+  background-color: #ffffd4;
+  width: 100%;
+  height: 130px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding-top: 18px;
+  position: relative;
+}
+
+.turncard p {
+  margin-left: 15px;
+}
+
+.turncard img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.remember {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dont-remember,
+.almost-remember,
+.zap {
+  width: 85px;
+  height: 37px;
+  border-radius: 5px;
+  display: table;
+  cursor: pointer;
+}
+
+.dont-remember {
+  background-color: #ff3030;
+}
+
+.almost-remember {
+  background-color: #ff922e;
+}
+
+.zap {
+  background-color: #2fbe34;
+}
+
+.red {
+  color: #ff3030;
+  text-decoration: line-through;
+}
+
+.orange {
+  color: #ff922e;
+  text-decoration: line-through;
+}
+
+.green {
+  color: #2fbe34;
+  text-decoration: line-through;
+}
+
+.remember p {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
